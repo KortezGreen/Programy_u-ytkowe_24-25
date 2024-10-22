@@ -1,13 +1,37 @@
-\documentclass[a4paper,11pt]{amsart}
-\title{dokument}
+\documentclass[a4paper,11pt]{article}
+\title{Dokument}
 \author{Kacper Kieplin}
+\date{ \today}
 \usepackage[MeX]{polski}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{graphicx}
 
 \begin{document}
 \maketitle
+\begin{center}
 \tableofcontents
+\end{center}
 
+\section{rozdział}
+\subsection{podrozdział}
+\subsubsection{podpodrozdział} 
+
+tekst\\
+\url{http://www.rich.edu/˜bush}\\
+Jest $-30\,^{\circ}\mathrm{C}$.\\
+\emph{kursywa}\\
+zielony\footnote{niebieski i żółty}\\
+
+\label{etykieta}
+test
+\ref{etykieta}
+test
+\pageref{etykieta}
+
+\begin{figure}
+\centering
+\includegraphics[angle=360,width=0.5\textwidth]{Kwiaty.jpg}
+\end{figure}
 
 \end{document}
