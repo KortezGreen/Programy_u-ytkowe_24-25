@@ -6,6 +6,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\newtheorem{twr}{Twierdzenie}
+\newtheorem{lem}[twr]{Lemat}
+
+\usepackage[a4paper, left=3.5cm, right=3.5cm, top=3.5cm, bottom=3.5cm, headsep=1.2cm]{geometry} 
 
 \begin{document}
 \maketitle
@@ -27,7 +31,35 @@ zielony\footnote{niebieski i żółty}\\
 test
 \ref{etykieta}
 test
-\pageref{etykieta}
+\pageref{etykieta}\\
+
+\begin{displaymath}
+a^x+y \neq a^{x+y}
+\end{displaymath}\\
+
+\begin{equation}
+a^x+y \neq a^{x+y}
+\end{equation}\\
+
+\begin{equation}
+\epsilon > 0 \label{eq:eps}
+\end{equation}
+Ze wzoru (\ref{eq:eps})
+otrzymujemy \ldots\\
+
+\begin{displaymath}
+\lim_{n \to \infty}
+\sum_{k=1}^n \frac{1}{k^2}
+= \frac{\pi^2}{6}
+\end{displaymath}\\
+
+
+\begin{lem} Pierwszy
+lemat\dots\label{lem:1} \end{lem}
+\begin{twr}[Dyzma]
+Przyjmując w~lemacie~\ref{lem:1},
+że $\epsilon=0$\dots \end{twr}
+\begin{lem}Trzeci lemat\end{lem}
 
 \begin{figure}
 \centering
