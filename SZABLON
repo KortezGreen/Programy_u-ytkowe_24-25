@@ -1,0 +1,13 @@
+\documentclass[a4paper,11pt]{amsart}
+\title{dokument}
+\author{Kacper Kieplin}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+\end{document}
