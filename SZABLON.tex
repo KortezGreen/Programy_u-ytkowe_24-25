@@ -7,6 +7,7 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage[verbose]{placeins}
 \newtheorem{twr}{Twierdzenie}
 \newtheorem{lem}[twr]{Lemat}
 
@@ -63,6 +64,15 @@ lemat\dots\label{lem:1} \end{lem}
 Przyjmując w~lemacie~\ref{lem:1},
 że $\epsilon=0$\dots \end{twr}
 \begin{lem}Trzeci lemat\end{lem}
+
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=8cm]{BW.PNG}
+  \caption{caption here}
+  \label{fig:vue-snoc-pos}
+\end{figure}
+\FloatBarrier
+
 
 \begin{figure}
 \centering
